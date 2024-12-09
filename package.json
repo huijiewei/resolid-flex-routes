@@ -1,17 +1,23 @@
 {
   "name": "@resolid/flex-router",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "sideEffects": false,
   "description": "Resolid React Router 灵活路由",
   "author": "Huijie Wei",
   "license": "MIT",
-  "keywords": ["resolid", "react-router", "file-system-routes"],
+  "keywords": [
+    "resolid",
+    "react-router",
+    "file-system-routes"
+  ],
   "publishConfig": {
     "access": "public",
     "provenance": true
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "check": "biome check --write .",
