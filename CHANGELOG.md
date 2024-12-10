@@ -1,5 +1,11 @@
 # @resolid/flex-router
 
+## 1.0.2
+
+### Patch Changes
+
+- [#5](https://github.com/huijiewei/resolid-flex-routes/pull/5) [`0d9919e`](https://github.com/huijiewei/resolid-flex-routes/commit/0d9919e56db6b2152a839ce7e134e4865c49d330) Thanks [@huijiewei](https://github.com/huijiewei)! - fix package.json engines setting
+
 ## 1.0.1
 
 ### Patch Changes
