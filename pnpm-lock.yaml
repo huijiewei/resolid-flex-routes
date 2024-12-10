@@ -40,8 +40,8 @@ importers:
         specifier: ^7.0.2
         version: 7.0.2(@types/node@20.17.9)(react-router@7.0.2(react@19.0.0))(typescript@5.7.2)(vite@5.4.11(@types/node@20.17.9))
       '@resolid/config':
-        specifier: ^2.1.1
-        version: 2.1.1
+        specifier: ^2.1.2
+        version: 2.1.2
       '@types/node':
         specifier: ^20.17.9
         version: 20.17.9
@@ -783,9 +783,9 @@ packages:
       typescript:
         optional: true
 
-  '@resolid/config@2.1.1':
-    resolution: {integrity: sha512-GFxKXO7yOeOwfyyV4bKtPgYIQMQmkvsHr1Fm06UnUJ1/n1vpiQ9Zum+8+i1VjDvx66+kRblf6dVomOVVDe0r6g==}
-    engines: {node: 20.x, pnpm: 9.x}
+  '@resolid/config@2.1.2':
+    resolution: {integrity: sha512-x7A3FBF7IlE3JA3xfVGxrAIfnDZqnmPzEprkH6GE8LXHYtDYMxQisYHIFN+0jGQLiXyiRZUNf87WCSNJK36oWw==}
+    engines: {node: '>=20.0.0'}
 
   '@rollup/rollup-android-arm-eabi@4.28.1':
     resolution: {integrity: sha512-2aZp8AES04KI2dy3Ss6/MDjXbwBzj+i0GqKtWXgw2/Ma6E4jJvujryO6gJAghIRVz7Vwr9Gtl/8na3nDUKpraQ==}
@@ -3169,7 +3169,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.7.2
 
-  '@resolid/config@2.1.1': {}
+  '@resolid/config@2.1.2': {}
 
   '@rollup/rollup-android-arm-eabi@4.28.1':
     optional: true
