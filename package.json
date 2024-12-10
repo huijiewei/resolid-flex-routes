@@ -1,5 +1,5 @@
 {
-  "name": "@resolid/flex-router",
+  "name": "@resolid/flex-routes",
   "version": "1.0.0",
   "type": "module",
   "sideEffects": false,
