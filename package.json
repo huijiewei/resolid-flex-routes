@@ -6,18 +6,12 @@
   "description": "Resolid React Router 灵活路由",
   "author": "Huijie Wei",
   "license": "MIT",
-  "keywords": [
-    "resolid",
-    "react-router",
-    "file-system-routes"
-  ],
+  "keywords": ["resolid", "react-router", "file-system-routes"],
   "publishConfig": {
     "access": "public",
     "provenance": true
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "check": "biome check --write .",
@@ -37,6 +31,7 @@
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.17.1",
     "@biomejs/biome": "^1.9.4",
+    "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.10",
     "@commitlint/cli": "^19.6.0",
     "@commitlint/config-conventional": "^19.6.0",
@@ -55,7 +50,7 @@
     "node": "20.x",
     "pnpm": "9.x"
   },
-  "packageManager": "pnpm@9.14.4",
+  "packageManager": "pnpm@9.15.0",
   "homepage": "https://www.resolid.tech",
   "repository": {
     "type": "git",
