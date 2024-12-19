@@ -1,6 +1,5 @@
 import { readdir } from "node:fs/promises";
-import { win32 } from "node:path";
-import { join, relative } from "node:path";
+import { join, relative, win32 } from "node:path";
 
 const paramPrefixChar = "$";
 const escapeStart = "[";
