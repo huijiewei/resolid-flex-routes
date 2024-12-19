@@ -16,8 +16,8 @@ npm install -D @resolid/flex-routes
 
 ```ts
 // app/routes.ts
-import type {RouteConfig} from "@react-router/dev/routes";
-import {flexRoutes} from "@resolid/flex-routes";
+import type { RouteConfig } from "@react-router/dev/routes";
+import { flexRoutes } from "@resolid/flex-routes";
 
 export default flexRoutes() satisfies RouteConfig;
 ```

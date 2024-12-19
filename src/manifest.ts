@@ -1,5 +1,5 @@
-import { extname, join } from "node:path";
 import type { RouteConfigEntry } from "@react-router/dev/routes";
+import { extname, join } from "node:path";
 import { PrefixLookupTrie, createRoutePath, getRouteSegments, normalizeSlashes } from "./utils";
 
 export type RouteManifestEntry = {

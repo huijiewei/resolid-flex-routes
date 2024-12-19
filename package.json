@@ -20,8 +20,9 @@
   ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "check": "biome check --write .",
     "check-exports": "attw --pack . --profile esm-only",
+    "lint": "eslint .",
+    "format": "prettier --write .",
     "build": "tsup",
     "test": "vitest"
   },
@@ -36,15 +37,15 @@
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.17.1",
-    "@biomejs/biome": "^1.9.4",
     "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.10",
-    "@commitlint/cli": "^19.6.0",
+    "@changesets/cli": "^2.27.11",
+    "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.6.0",
     "@react-router/dev": "^7.0.2",
-    "@resolid/config": "^2.1.2",
-    "@types/node": "^20.17.9",
-    "lefthook": "^1.9.0",
+    "@resolid/config": "^3.0.1",
+    "@types/node": "^20.17.10",
+    "lefthook": "^1.9.3",
+    "prettier": "^3.4.2",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2",
     "vitest": "^2.1.8"

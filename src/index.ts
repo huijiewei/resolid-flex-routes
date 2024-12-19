@@ -1,6 +1,6 @@
-import { extname, join } from "node:path";
 import { getAppDirectory } from "@react-router/dev/routes";
 import { makeRe } from "minimatch";
+import { extname, join } from "node:path";
 import { filesToRouteManifest, routeManifestToRouteConfig } from "./manifest";
 import { visitFiles } from "./utils";
 
