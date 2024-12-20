@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "type": "module",
   "sideEffects": false,
-  "description": "Resolid React Router 灵活路由",
+  "description": "React Router flex file-system routes",
   "author": "Huijie Wei",
   "license": "MIT",
   "keywords": [
@@ -36,7 +36,7 @@
     "minimatch": "^10.0.1"
   },
   "devDependencies": {
-    "@arethetypeswrong/cli": "^0.17.1",
+    "@arethetypeswrong/cli": "^0.17.2",
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.11",
     "@commitlint/cli": "^19.6.1",
@@ -44,7 +44,7 @@
     "@react-router/dev": "^7.0.2",
     "@resolid/config": "^3.0.1",
     "@types/node": "^20.17.10",
-    "lefthook": "^1.9.3",
+    "lefthook": "^1.10.0",
     "prettier": "^3.4.2",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2",
@@ -67,7 +67,22 @@
       "safer-buffer": "npm:@nolyfill/safer-buffer@^1",
       "is-core-module": "npm:@nolyfill/is-core-module@^1",
       "isarray": "npm:@nolyfill/isarray@^1",
-      "safe-buffer": "npm:@nolyfill/safe-buffer@^1"
+      "safe-buffer": "npm:@nolyfill/safe-buffer@^1",
+      "array-includes": "npm:@nolyfill/array-includes@^1",
+      "array.prototype.findlast": "npm:@nolyfill/array.prototype.findlast@^1",
+      "array.prototype.flat": "npm:@nolyfill/array.prototype.flat@^1",
+      "array.prototype.flatmap": "npm:@nolyfill/array.prototype.flatmap@^1",
+      "array.prototype.tosorted": "npm:@nolyfill/array.prototype.tosorted@^1",
+      "es-iterator-helpers": "npm:@nolyfill/es-iterator-helpers@^1",
+      "hasown": "npm:@nolyfill/hasown@^1",
+      "object.assign": "npm:@nolyfill/object.assign@^1",
+      "object.entries": "npm:@nolyfill/object.entries@^1",
+      "object.fromentries": "npm:@nolyfill/object.fromentries@^1",
+      "object.values": "npm:@nolyfill/object.values@^1",
+      "safe-regex-test": "npm:@nolyfill/safe-regex-test@^1",
+      "string.prototype.includes": "npm:@nolyfill/string.prototype.includes@^1",
+      "string.prototype.matchall": "npm:@nolyfill/string.prototype.matchall@^1",
+      "string.prototype.repeat": "npm:@nolyfill/string.prototype.repeat@^1"
     }
   }
 }
