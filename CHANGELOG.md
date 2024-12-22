@@ -1,5 +1,11 @@
 # @resolid/flex-router
 
+## 1.1.2
+
+### Patch Changes
+
+- [#11](https://github.com/huijiewei/resolid-flex-routes/pull/11) [`a70cc53`](https://github.com/huijiewei/resolid-flex-routes/commit/a70cc53034d03cc229c49a14d8db73c8f548165f) Thanks [@huijiewei](https://github.com/huijiewei)! - update dependencies
+
 ## 1.1.1
 
 ### Patch Changes
