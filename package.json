@@ -41,22 +41,22 @@
     "@changesets/cli": "^2.27.11",
     "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.6.0",
-    "@react-router/dev": "^7.0.2",
-    "@resolid/config": "^3.0.1",
+    "@react-router/dev": "^7.1.0",
+    "@resolid/config": "^3.0.2",
     "@types/node": "^20.17.10",
     "lefthook": "^1.10.0",
     "prettier": "^3.4.2",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2",
-    "vitest": "^2.1.8"
+    "vitest": "3.0.0-beta.3"
   },
   "peerDependencies": {
-    "@react-router/dev": "^7.0.2"
+    "@react-router/dev": "^7.1.0"
   },
   "engines": {
     "node": ">=20.0.0"
   },
-  "packageManager": "pnpm@9.15.0",
+  "packageManager": "pnpm@9.15.1",
   "homepage": "https://www.resolid.tech",
   "repository": {
     "type": "git",
