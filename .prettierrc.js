@@ -7,4 +7,5 @@ const config = {
   ...prettierConfig,
 };
 
+// noinspection JSUnusedGlobalSymbols
 export default config;
