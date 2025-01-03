@@ -1,6 +1,11 @@
 {
-  "$schema": "https://unpkg.com/@changesets/config@3.0.4/schema.json",
-  "changelog": ["@changesets/changelog-github", { "repo": "huijiewei/resolid-flex-routes" }],
+  "$schema": "https://unpkg.com/@changesets/config@3.0.5/schema.json",
+  "changelog": [
+    "@changesets/changelog-github",
+    {
+      "repo": "huijiewei/resolid-flex-routes"
+    }
+  ],
   "commit": false,
   "fixed": [],
   "linked": [],
