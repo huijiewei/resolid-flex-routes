@@ -1,5 +1,11 @@
 # @resolid/flex-router
 
+## 1.1.9
+
+### Patch Changes
+
+- [`590cfa1`](https://github.com/huijiewei/resolid-flex-routes/commit/590cfa1abb4eb28159f7b0f8b4c747b31e576de3) Thanks [@huijiewei](https://github.com/huijiewei)! - upgrade pnpm to v10
+
 ## 1.1.8
 
 ### Patch Changes
