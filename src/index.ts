@@ -1,4 +1,4 @@
-import { getAppDirectory } from "@react-router/dev/routes";
+import { getAppDirectory, type RouteConfigEntry } from "@react-router/dev/routes";
 import { makeRe } from "minimatch";
 import { extname, join } from "node:path";
 import { filesToRouteManifest, routeManifestToRouteConfig } from "./manifest";
@@ -12,7 +12,7 @@ export type FolderRoutesOptions = {
 const routeModuleExtensions = [".js", ".jsx", ".ts", ".tsx", ".md", ".mdx"];
 
 // noinspection JSUnusedGlobalSymbols
-export const flexRoutes = async (options: FolderRoutesOptions = {}) => {
+export const flexRoutes = async (options: FolderRoutesOptions = {}): Promise<RouteConfigEntry[]> => {
   const { routesDirectory = "routes", ignoredRouteFiles = [] } = options;
 
   const appDirectory = getAppDirectory();
