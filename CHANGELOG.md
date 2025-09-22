@@ -1,5 +1,11 @@
 # @resolid/flex-router
 
+## 1.5.1
+
+### Patch Changes
+
+- [`ebdc190`](https://github.com/huijiewei/resolid-flex-routes/commit/ebdc190703ff4f32731c4ac78aa979b7aca7d2eb) Thanks [@huijiewei](https://github.com/huijiewei)! - replace tsup with tsdown
+
 ## 1.5.0
 
 ### Minor Changes
