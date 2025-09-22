@@ -7,7 +7,7 @@ const escapeEnd = "]";
 const optionalStart = "(";
 const optionalEnd = ")";
 
-export const visitFiles = async (dir: string, visitor: (file: string) => void, base = dir) => {
+export const visitFiles = async (dir: string, visitor: (file: string) => void, base: string = dir): Promise<void> => {
   for (const entry of await readdir(dir, { withFileTypes: true, encoding: "utf8" })) {
     const file = join(dir, entry.name);
 
@@ -140,7 +140,11 @@ export const getRouteSegments = (routeId: string): [string[], string[]] => {
   return [routeSegments, rawRouteSegments];
 };
 
-export const createRoutePath = (routeSegments: string[], rawRouteSegments: string[], isIndex?: boolean) => {
+export const createRoutePath = (
+  routeSegments: string[],
+  rawRouteSegments: string[],
+  isIndex?: boolean,
+): string | undefined => {
   const result: string[] = [];
   const localSegments = isIndex ? routeSegments.slice(0, -1) : routeSegments;
 
@@ -162,7 +166,7 @@ export const createRoutePath = (routeSegments: string[], rawRouteSegments: strin
   return result.length ? result.join("/") : undefined;
 };
 
-const PrefixLookupTrieEndSymbol = Symbol("PrefixLookupTrieEndSymbol");
+const PrefixLookupTrieEndSymbol: unique symbol = Symbol("PrefixLookupTrieEndSymbol");
 
 type PrefixLookupNode = {
   [key: string]: PrefixLookupNode;
@@ -173,7 +177,7 @@ export class PrefixLookupTrie {
     [PrefixLookupTrieEndSymbol]: false,
   };
 
-  add(value: string) {
+  add(value: string): void {
     if (!value) throw new Error("Cannot add empty string to PrefixLookupTrie");
 
     let node = this.root;
@@ -217,4 +221,4 @@ export class PrefixLookupTrie {
   }
 }
 
-export const normalizeSlashes = (file: string) => file.split(win32.sep).join("/");
+export const normalizeSlashes = (file: string): string => file.split(win32.sep).join("/");

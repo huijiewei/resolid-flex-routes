@@ -50,7 +50,7 @@ export const routeManifestToRouteConfig = (routeManifest: RouteManifest, rootId 
   return routeConfig;
 };
 
-export const filesToRouteManifest = (routesDirectory: string, files: string[]) => {
+export const filesToRouteManifest = (routesDirectory: string, files: string[]): RouteManifest => {
   const routeManifest: RouteManifest = {};
   const routeIds = new Map<string, string>();
   const routeIdConflicts = new Map<string, string[]>();
