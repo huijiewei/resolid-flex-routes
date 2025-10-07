@@ -1,5 +1,11 @@
 # @resolid/flex-router
 
+## 1.6.0
+
+### Minor Changes
+
+- [`9302874`](https://github.com/huijiewei/resolid-flex-routes/commit/9302874ad6380cc713cf8d27459bf41be171b346) Thanks [@huijiewei](https://github.com/huijiewei)! - update node support version
+
 ## 1.5.1
 
 ### Patch Changes
